@@ -2,7 +2,7 @@ pipeline{
 agent any
 stages
 {
-stage('build)
+stage('build')
 {
 steps{
 echo "build the project"
@@ -12,7 +12,6 @@ stage('test')
 {
 steps{
 echo "today date is "
-date
 }
 }
 stage('deploy')
